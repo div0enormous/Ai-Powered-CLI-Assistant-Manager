@@ -23,7 +23,7 @@ def explain_command(command_text):
         print("Error: Gemini API key not found. Run installer first.")
         return
 
-    url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent"
+    url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
     headers = {
         "Content-Type": "application/json"
     }
