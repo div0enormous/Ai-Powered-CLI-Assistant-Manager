@@ -13,7 +13,7 @@ A smart terminal companion that helps explain and solve terminal errors using Go
 ## Installation
 
 ```bash
-git clone https://github.com/div0enormous/Ai-Powered-CLI-Assistant-Manager/tree/main
+git clone https://github.com/div0enormous/Ai-Powered-CLI-Assistant-Manager.git
 cd cli-manager
 bash install.sh
 ```
