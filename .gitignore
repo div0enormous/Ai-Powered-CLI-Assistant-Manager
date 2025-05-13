@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+data/api_key.json
+data/settings.json
+data/error_logs.json
+cache/
