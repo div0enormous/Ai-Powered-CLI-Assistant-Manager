@@ -22,7 +22,7 @@ def query_gemini(prompt_text):
     if not api_key:
         return "Error: Gemini API key is missing. Run installer first."
 
-    url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent"
+    url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
     headers = {
         "Content-Type": "application/json"
     }
