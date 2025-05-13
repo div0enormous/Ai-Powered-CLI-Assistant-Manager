@@ -1,0 +1,11 @@
+[Unit]
+Description=CLI MANAGER Auto Start Service
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /path/to/CLI_MANAGER/cli_manager.py
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
