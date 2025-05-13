@@ -15,7 +15,7 @@ class Config:
             "text_size": "medium",
             "color_theme": "default",
             "word_limit": 150,
-            "api_key": os.environ.get("GEMINI_API_KEY", "AIzaSyBD8cb-rZZ52LV_RmY0IgeQ1CpDjtDKPFw"),
+            "api_key": os.environ.get("GEMINI_API_KEY", "YOUR_API_KEY_HERE"),
             "gemini_model": "gemini-2.0-flash",
             "shell_history_file": self._get_default_history_file(),
             "aliases": {
